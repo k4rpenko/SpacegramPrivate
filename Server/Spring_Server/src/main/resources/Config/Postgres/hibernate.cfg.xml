@@ -1,0 +1,12 @@
+<hibernate-configuration>
+    <session-factory>
+        <!-- Підключення до бази даних -->
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://postgresql.c180acusgdxs.eu-central-1.rds.amazonaws.com:5432/postgres</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">cuhYXGlO9BI1</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+        <property name="hibernate.archive.autodetection">class</property>
+    </session-factory>
+</hibernate-configuration>
